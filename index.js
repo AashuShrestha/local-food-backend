@@ -48,6 +48,8 @@ app.use('/api/user', require('./routes/userRoutes'));
 app.use("/api/product", require("./routes/productRoutes"));
 app.use("/api/category", require("./routes/categoryRoutes.js"));
 app.use("/api/order", require("./routes/orderRoutes.js"));
+app.use("/api/payment", require("./routes/paymentRoutes.js"))
+// app.use("/api/payment", require("./routes/paymentRoutes.js"));
 app.use("/api/cart", require("./routes/cartRoutes.js"));
 app.use("/api/favorites", require("./routes/favoriteRoute.js"))
 
